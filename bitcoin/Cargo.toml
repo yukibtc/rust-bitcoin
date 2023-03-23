@@ -14,6 +14,7 @@ exclude = ["tests", "contrib"]
 
 [features]
 default = [ "std", "secp-recovery" ]
+global-context = ["secp256k1/global-context"]
 rand-std = ["secp256k1/rand-std"]
 rand = ["secp256k1/rand"]
 serde = ["actual-serde", "bitcoin_hashes/serde", "secp256k1/serde"]
